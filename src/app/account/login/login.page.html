@@ -4,6 +4,20 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
+  <ion-card>
+  <ion-item>
+    <ion-input type="email"  placeholder="ชื่อ">e-mail</ion-input>
 
-</ion-content>
+  </ion-item>
+  <ion-item>
+    <ion-input type="email" placeholder="นามสกุล">password</ion-input>
+
+  </ion-item>
+
+  <ion-button [routerLink]="[ '/home']">
+    เข้าสู่ระบบ
+
+  </ion-button>
+</ion-card>
+  </ion-content>

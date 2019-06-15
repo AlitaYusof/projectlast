@@ -25,13 +25,13 @@
 
         <ion-item class="pd" [routerLink]="['/markmap']">
           <ion-icon style="color:#4EAED7;" name="disc"></ion-icon>
-          <ion-label>&nbsp;&nbsp;&nbsp;จุดรับ : {{datapo1.att}}</ion-label>
+          <ion-label>&nbsp;&nbsp;&nbsp;จุดรับ : </ion-label>
           <ion-icon name="locate"></ion-icon>
         </ion-item>
 
         <ion-item class="pd" [routerLink]="['/markmap1']">
           <ion-icon style="color:#F8031A;" name="pin"></ion-icon>
-          <ion-label>&nbsp;&nbsp;&nbsp;จุดส่ง : {{datapo2.att}}</ion-label>
+          <ion-label>&nbsp;&nbsp;&nbsp;จุดส่ง : </ion-label>
           <ion-icon name="add-circle-outline"></ion-icon>
         </ion-item>
 
@@ -70,11 +70,9 @@
         </ion-row>
       </ion-grid>
       <br>
-      <!-- <ion-button [routerLink]="[ '/my-jop' ]" shape="round" fill="outline">
-          สั่งงาน
-        </ion-button> -->
+     
       <div text-center>
-        <ion-button (click)="createjop()" shape="round" fill="outline">
+        <ion-button shape="round" fill="outline">
           สั่งงาน
         </ion-button>
       </div>
