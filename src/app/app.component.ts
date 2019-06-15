@@ -15,16 +15,26 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
-    {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
-    },
+    // {
+    //   title: 'List',
+    //   url: '/list',
+    //   icon: 'list'
+    // },
     {
       title: 'profile',
       url: '/profile',
-      icon: 'list'
-    }
+      icon: 'person'
+    },
+    {
+      title: 'setting',
+      url: '/setting',
+      icon: 'cog'
+    },
+    {
+      title: 'ออกจากระบบ',
+      // url: '/setting',
+      icon: 'power'
+    },
   ];
 
   constructor(

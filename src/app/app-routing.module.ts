@@ -25,7 +25,8 @@ const routes: Routes = [
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
   { path: 'showprofile', loadChildren: './showprofile/showprofile.module#ShowprofilePageModule' },
   { path: 'history', loadChildren: './history/history.module#HistoryPageModule' },
-  { path: 'setting', loadChildren: './setting/setting.module#SettingPageModule' }
+  { path: 'setting', loadChildren: './setting/setting.module#SettingPageModule' },
+  { path: 'changpas', loadChildren: './changpas/changpas.module#ChangpasPageModule' }
 ];
 
 @NgModule({
