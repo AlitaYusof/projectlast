@@ -1,9 +1,44 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>profile</ion-title>
+      <ion-menu-button>
+          <ion-icon slot="icon-only" name="options"></ion-icon>
+     
+    <ion-title>profile</ion-title>   </ion-menu-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+    <ion-item class="bg-profile">
+        <!-- <ion-avatar slot="start">
+          <img src="assets/img/man.png" class="user-avatar">
+        </ion-avatar> -->
+        <ion-label>
+          <ion-text >
+            
+              ชื่อ: 
+          </ion-text>
+          <ion-text color="tertiary">
+            <h3>
+              mr.@gmail.com
+            </h3>
+          </ion-text>
+          
+         
+        </ion-label>
+      </ion-item>
+    
+      <ion-list no-border>
+        <ion-list-header>
+          <ion-text color="dark">
+            <h5>General</h5>
+          </ion-text>
+        </ion-list-header>
+        
+        <ion-item>
+          <ion-icon name="notifications" slot="start" color="primary"></ion-icon>
+          <ion-label class="label" color="primary">เปิด-ปิดการแจ้งเตือน </ion-label>
+          <ion-toggle [(ngModel)]="enableNotifications"></ion-toggle>
+        </ion-item>
+      </ion-list>
+      
 </ion-content>

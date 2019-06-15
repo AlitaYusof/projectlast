@@ -23,7 +23,8 @@ const routes: Routes = [
   { path: 'markmap1', loadChildren: './user/markmap1/markmap1.module#Markmap1PageModule' },
   { path: 'receive', loadChildren: './driver/receive/receive.module#ReceivePageModule' },
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
-  { path: 'showprofile', loadChildren: './showprofile/showprofile.module#ShowprofilePageModule' }
+  { path: 'showprofile', loadChildren: './showprofile/showprofile.module#ShowprofilePageModule' },
+  { path: 'history', loadChildren: './history/history.module#HistoryPageModule' }
 ];
 
 @NgModule({
