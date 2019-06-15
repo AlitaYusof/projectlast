@@ -5,5 +5,48 @@
 </ion-header>
 
 <ion-content>
-
+  
+          <ion-card style="background-color: white; z-index: inherit 999999%;">
+            <br>
+           <div text-center>
+             <ion-label>Register</ion-label>
+            </div> 
+            <ion-card-content>
+              <ion-item>
+                <ion-input type="email" placeholder="ชื่อ"></ion-input>
+    
+              </ion-item>
+              <ion-item>
+                <ion-input type="email"  placeholder="นามสกุล"></ion-input>
+    
+              </ion-item>
+              <ion-item>
+                <ion-input type="email"  placeholder="ใบอนุญาตขับขี่"></ion-input>
+    
+              </ion-item>
+              <ion-item>
+                  <ion-input type="email"  placeholder="ทะเบียนรถ"></ion-input>
+      
+                </ion-item>
+    
+              <ion-item>
+                <ion-input  type="email"  placeholder="อีเมล">
+                </ion-input>
+    
+              </ion-item>
+            
+              <ion-item>
+                <ion-input  placeholder="รหัสผ่าน" type="password"></ion-input>
+    
+              </ion-item>
+              
+             
+              <div text-center>
+                <ion-button tappable [routerLink]="['/home']">ลงทะเบียน</ion-button
+               >
+                <ion-button color="secondary" [routerLink]="['/login']" >Cancel</ion-button>
+              </div>
+            </ion-card-content>
+          </ion-card>
+     
 </ion-content>

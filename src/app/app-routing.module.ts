@@ -22,7 +22,8 @@ const routes: Routes = [
   { path: 'profile', loadChildren: './user/profile/profile.module#ProfilePageModule' },
   { path: 'showprofile', loadChildren: './user/showprofile/showprofile.module#ShowprofilePageModule' },
   { path: 'markmap', loadChildren: './user/markmap/markmap.module#MarkmapPageModule' },
-  { path: 'markmap1', loadChildren: './user/markmap1/markmap1.module#Markmap1PageModule' }
+  { path: 'markmap1', loadChildren: './user/markmap1/markmap1.module#Markmap1PageModule' },
+  { path: 'receive', loadChildren: './driver/receive/receive.module#ReceivePageModule' }
 ];
 
 @NgModule({

@@ -15,9 +15,19 @@
 
   </ion-item>
 
-  <ion-button [routerLink]="[ '/home']">
+  <ion-button [routerLink]="['/home']">
     เข้าสู่ระบบ
-
   </ion-button>
+  <ion-grid>
+          <ion-row>
+            <ion-col >
+              <!-- <span (click)="forget()" class=" pull-left"> -->
+              <p >ลืมรหัสผ่าน?</p>
+            </ion-col>
+            <ion-col>
+              <p class="pull-right">สมัครสมาชิก?</p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
 </ion-card>
   </ion-content>

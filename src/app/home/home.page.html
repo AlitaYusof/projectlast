@@ -12,15 +12,9 @@
 </ion-header>
 
 <ion-content >
-      <!-- <ion-item class="pd1" lines="none">
-        <ion-label>เลือกประเภทรถ</ion-label>
-        <ion-select placeholder="Select One" [(ngModel)]="section2">
-          <ion-select-option value="small">จักรยานยนต์</ion-select-option>
-          <ion-select-option value="big">รถยนต์</ion-select-option>
-        </ion-select>
-      </ion-item> -->
+     
 
-
+<br>
       <ion-list>
 
         <ion-item class="pd" [routerLink]="['/markmap']">
@@ -72,7 +66,7 @@
       <br>
      
       <div text-center>
-        <ion-button shape="round" fill="outline">
+        <ion-button shape="round" fill="outline" [routerLink]="['/receive']">
           สั่งงาน
         </ion-button>
       </div>
