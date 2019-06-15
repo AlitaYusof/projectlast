@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'receive', loadChildren: './driver/receive/receive.module#ReceivePageModule' },
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
   { path: 'showprofile', loadChildren: './showprofile/showprofile.module#ShowprofilePageModule' },
-  { path: 'history', loadChildren: './history/history.module#HistoryPageModule' }
+  { path: 'history', loadChildren: './history/history.module#HistoryPageModule' },
+  { path: 'setting', loadChildren: './setting/setting.module#SettingPageModule' }
 ];
 
 @NgModule({
