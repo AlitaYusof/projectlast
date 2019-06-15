@@ -5,5 +5,58 @@
 </ion-header>
 
 <ion-content>
-
+    <ion-label>ใส่แมพ</ion-label>
+    <ion-list>
+        <ion-grid fixed>
+          <ion-row align-items-stretch>
+            <ion-col size="12" size-md="6">
+              <ion-card class="speaker-card">
+    
+                <ion-card-content>
+                  <ion-list>
+                    <ion-item>
+                      <ion-icon name="pin" color="secondary"></ion-icon> &nbsp;
+                      <ion-input placeholder="ชื่อสถานที่"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="pin" color="secondary"></ion-icon> &nbsp;
+                      <ion-input placeholder="ชื่อผู้ใช้"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="pin" color="secondary"></ion-icon> &nbsp;
+                      <ion-input placeholder="หมายเลขโทรศัพท์"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                    <ion-icon name="calendar" color="secondary"></ion-icon> 
+                      <ion-datetime displayFormat="D MM YYYY H:mm" min="1997" max="2010" value="2005-06-17T11:06Z"></ion-datetime>
+                    </ion-item>
+                  </ion-list>
+    
+                  <ion-item >lat=
+                 
+    
+                  </ion-item>
+                  
+                  <ion-item >long=
+    
+                  </ion-item>
+           
+                  
+    
+                </ion-card-content>
+                <ion-row>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             
+                  <ion-col text-right size="4" >
+                    <ion-button shape="round" fill="outline"  color="primary" >
+                      <ion-icon name="done-all" slot="start" ></ion-icon>
+                      ยืนยัน
+                    </ion-button>
+                  </ion-col>
+                </ion-row>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-list>
 </ion-content>
